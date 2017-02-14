@@ -1,0 +1,28 @@
+states:
+  enable_commonstate_batterystatechanged: true
+  enable_commonstate_wifisignalchanged: false
+  enable_overheatstate_overheatchanged: false
+  enable_controllerstate_ispilotingchanged: false
+  enable_mavlinkstate_mavlinkfileplayingstatechanged: false
+  enable_mavlinkstate_mavlinkplayerrorstatechanged: false
+  enable_flightplanstate_availabilitystatechanged: false
+  enable_flightplanstate_componentstatelistchanged: false
+  enable_pilotingstate_altitudechanged: false
+  enable_pilotingstate_flattrimchanged: false
+  enable_pilotingstate_flyingstatechanged: false
+  enable_pilotingstate_navigatehomestatechanged: false
+  enable_pilotingstate_positionchanged: false
+  enable_pilotingstate_speedchanged: false
+  enable_pilotingstate_attitudechanged: false
+  enable_pilotingstate_positionchanged: false
+  enable_altitudechanged: false
+  enable_autotakeoffmodechanged: false
+  enable_mediastreamingstate_videoenablechanged: false
+  enable_camerastate_orientation: false
+  enable_gpsstate_numberofsatellitechanged: false
+  enable_numberofsatellitechanged: false
+
+reset_settings: false
+publish_odom_tf: true
+odom_frame_id: "odom"
+cmd_vel_timeout: 0.5
