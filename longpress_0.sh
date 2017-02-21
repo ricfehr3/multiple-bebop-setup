@@ -34,10 +34,10 @@ bcmwl join ${ESSID}
 bcmwl up                                                                             
 bcmwl join ${ESSID}                                                                  
 bcmwl ssid > /home/ssid1.txt                                                         
-ifconfig eth0 192.168.1.<drone_ip> netmask 255.255.255.0 up                                   
+ifconfig eth0 192.168.1.<drone_ip> netmask 255.255.255.0 up
                                                                                      
 #Set light back to green after 1 second                                              
-(sleep 1; BLCD_Test_Bench -G 0 1 0 > /dev/null) &                                    
+(sleep 1; BLDC_Test_Bench -G 0 1 0 > /dev/null) &                                    
                                                                                      
 ifconfig > /home/config2.txt                                                         
 bcmwl ssid > /home/ssid2.txt                                                         
